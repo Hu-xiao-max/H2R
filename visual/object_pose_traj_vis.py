@@ -6,7 +6,7 @@ from mpl_toolkits.mplot3d import Axes3D
 # 读取指定object pose下所有txt的第一个center点，并且组成轨迹
 
 # 设置你的txt文件目录路径
-folder_path = "/home/hux/datasets/h2odataset/dataset/subject4_pose_v1_1/subject4/h1/0/cam4/obj_pose"  # 替换为你的实际路径
+folder_path = "/home/hux/datasets/H2R/dataset/subject4_pose_v1_1/subject4/h1/0/cam4/obj_pose"  # 替换为你的实际路径
 
 trajectory = []
 
