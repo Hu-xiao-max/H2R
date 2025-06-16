@@ -59,7 +59,8 @@ if __name__ == '__main__':
     elif args.mode == 'ego':
         file_name_list = ['object.zip','label_split.zip','subject1_ego_v1_1.tar.gz','subject2_ego_v1_1.tar.gz','subject3_ego_v1_1.tar.gz','subject4_ego_v1_1.tar.gz']
     elif args.mode == 'pose':
-        file_name_list = ['object.zip','label_split.zip','subject1_pose_v1_1.tar.gz','subject2_pose_v1_1.tar.gz','subject3_pose_v1_1.tar.gz','subject4_pose_v1_1.tar.gz']
+        # file_name_list = ['object.zip','label_split.zip','subject1_pose_v1_1.tar.gz','subject2_pose_v1_1.tar.gz','subject3_pose_v1_1.tar.gz','subject4_pose_v1_1.tar.gz']
+        file_name_list = ['subject4_v1_1.tar.gz']
     file_list =  [url + s for s in file_name_list]
 
     if not os.path.exists(args.dest):
